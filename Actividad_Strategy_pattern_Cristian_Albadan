@@ -1,4 +1,3 @@
-
 class Ibehavior():
     def ataque(self):
         pass
@@ -84,9 +83,15 @@ class Caballero(Tropa):
 
 
 if __name__ == "__main__":
-    warrior = Caballero()
-    warrior.performUnit()
-
+    soldier = Soldado()
+    archer = Aquero()
+    knight = Caballero()
+    print("\n")
+    soldier.performUnit()
+    print("\n")
+    archer.performUnit()
+    print("\n")
+    knight.performUnit()
 
 
 
